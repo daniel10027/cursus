@@ -1,4 +1,4 @@
-string myConcat( arguments, separator) {
+function myConcat(arguments,separator) {
 var result = "";
 
     for(var i=0;i<arguments.length;i++){
