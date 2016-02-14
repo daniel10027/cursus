@@ -1,7 +1,6 @@
 function rounders(n) {
   var arr = ("" + n).split('').reverse("");
-  var len = arr.length - 1;
-  for (var i = 0; i < len; i++) {
+  for (var i = 0; i < arr.length - 1; i++) {
     var tmp = parseInt(arr[i]);
     arr[i] = 0;
     arr[i + 1] = parseInt(arr[i + 1]);
