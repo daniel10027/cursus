@@ -7,4 +7,4 @@ function centuryFromYear(year) {
 }
 
 
-console.log(centuryFromYear(1700));
+console.log(centuryFromYear(2000));

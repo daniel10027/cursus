@@ -1,10 +1,7 @@
 function divideAsLongAsPossible(n, d) {
-
-    while(n%d===0){
-        n/=d;
-        count++;
-    }
-    return n;
+  while (n % d === 0) {
+    n /= d;
+    count++;
+  }
+  return n;
 }
-
-console.log(divideAsLongAsPossible(458,3));

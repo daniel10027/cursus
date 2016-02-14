@@ -1,6 +1,5 @@
 function sumDigits(n) {
-    var s = ""+n;
-    var arr = s.split('');
+    var arr = (""+n).split('');
     var sum = 0;
 
     arr.map(function(val){
