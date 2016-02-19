@@ -9,3 +9,26 @@ RectanglePair(100) = [25, 25]
 
     [output] array.float
         Array of two elements, the length and the width of the rectangle of the maximum area.
+
+
+
+
+
+
+
+
+
+
+
+
+```java
+Object RectanglePair(float P) {
+    return new double[] { P/=4, P };
+}
+```
+
+```csharp
+object RectanglePair(float P) {
+    return new[] { P/=4, P };
+}
+```

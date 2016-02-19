@@ -1,11 +1,12 @@
 function squareDigitsSequence(n) {
-  var result = 2;
-  while (n !== sumDigits(n)) {
-    console.log(sumDigits(n));
+  var count = 1;
+  var elements = [];
+  while (elements.indexOf(n) === -1) {
+    count++;
+    elements.push(n);
     n = sumDigits(n);
-    result++;
   }
-  return result;
+  return count;
 }
 
 function sumDigits(n) {
@@ -15,4 +16,10 @@ function sumDigits(n) {
     sum += parseInt(val) * parseInt(val);
   });
   return sum;
+
 }
+
+
+
+// console.log(squareDigitsSequence(13));
+console.log(sumDigits(100001));
