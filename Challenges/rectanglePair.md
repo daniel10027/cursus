@@ -17,7 +17,7 @@ Among all rectangles that have a perimeter of P, find the dimensions of the one 
 * Javascript
 
 ``` javascript
-RectanglePair = P =>[P/4,P/4]
+RectanglePair = P =>[P=/4,P]
 ```
 * Java
 
