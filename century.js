@@ -1,10 +1,4 @@
 function centuryFromYear(year) {
-
-    var cent = Math.floor(year/100);
-
-    if(year%cent==0) return cent;
-    return cent+1;
+  var c = Math.floor(year / 100);
+  return (year % 100 === 0) ? c : ++c;
 }
-
-
-console.log(centuryFromYear(2000));
