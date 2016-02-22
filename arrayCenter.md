@@ -15,3 +15,5 @@ For [1, 3, 2, 1], the output should be [1, 2, 1] (since minA = 1, avgA = 1.75).
 
 Unsorted non-empty array of integers.
 [output] array.integer
+
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
