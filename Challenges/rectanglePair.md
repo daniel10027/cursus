@@ -6,7 +6,6 @@ Among all rectangles that have a perimeter of P, find the dimensions of the one 
 
 >RectanglePair(100) = [25, 25]
 
-
     input integer P
         A positive integer
 
