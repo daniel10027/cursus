@@ -1,2 +1,2 @@
 # CodeFightsSolutions
-My solutions to some of the problems on Codefights.com
+My solutions to some of the problems on [CodeFights] ([https://www.codefights.com](https://www.codefights.com))
