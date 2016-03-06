@@ -8,6 +8,8 @@ Given number X, find numbers A and B such that X = AB and A is the smallest poss
 ```
 power2("27") = [3, 3].
 power2("9904578032905937") = [17, 13].
+
+
 [input] string X
 
 0 < X < 10101
