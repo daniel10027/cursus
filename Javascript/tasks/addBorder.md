@@ -1,9 +1,16 @@
-Given a a rectangular matrix of characters, add a border of asterisks(*) to it.
+Given a a rectangular matrix of characters, add a border of asterisks(`*`) to it.
 
-Example
+## Example
 
-addBorder(["abc",            "ded"]) = ["*****",                       "_abc_",                       "_ded_",                       "*****"] [input] array.string picture
+    addBorder(["abc""ded"]) = ["*****",  
+                              "*abc*",
+                              "*ded*",
+                              "*****"]
 
-A non-empty array of non-empty equal-length strings. [output] array.string
+-   [input] array.string picture
 
-The same matrix of characters, framed with a border of asterisks of width 1.
+    A non-empty array of non-empty equal-length strings.
+
+-   [output] array.string
+
+    The same matrix of characters, framed with a border of asterisks of width 1.

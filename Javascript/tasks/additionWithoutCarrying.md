@@ -1,4 +1,5 @@
 # Description
+
 A little boy is studying arithmetics. He has just learned how to add two integers, written one below another, column by column. But he always forgets about the important part -- carrying.
 
 Given two integers, find the result which the little boy will get.
@@ -7,14 +8,12 @@ Note: the boy used this site as the source of knowledge, feel free to check it o
 
 ## Example
 
-```
-  For param1 = 456 and param2 = 1734, the output should be 1180.
+For `param1 = 456` and `param2 = 1734`, the output should be `1180`.
 
-     456
-    1734
-  + ____
-    1180
-```
+         456
+        1734
+      + ____
+        1180
 
 The little boy goes from right to left:
 
