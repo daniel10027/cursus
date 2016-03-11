@@ -4,7 +4,7 @@ Example
 
 for
 
-```
+```Javascript
 [[false, true, false],
  [true, false, false],
  [false, false, false]]

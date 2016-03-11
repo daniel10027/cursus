@@ -10,7 +10,7 @@ For newUsername = "Sheik", curUsername = "Zelda", isChanged = false, users = ["L
 
 For newUsername = "CASTOR", curUsername = "John", isChanged = false, users = ["Castor","Polux","John"] the output should be canUpdate(newUsername, curUsername, isChanged, users) = false. There's already a person with username "Castor" in the list.
 
-For newUsername = "The_Boss", curUsername = "the_boss", isChanged = true, users = ["Snake","the_boss","Zero"] the output should be canUpdate(newUsername, curUsername, isChanged, users) = true. The person simply wants to change the case of the letters in his username.
+For newUsername = "The\_Boss", curUsername = "the\_boss", isChanged = true, users = ["Snake","the_boss","Zero"] the output should be canUpdate(newUsername, curUsername, isChanged, users) = true. The person simply wants to change the case of the letters in his username.
 
 [input] string newUsername
 
@@ -23,3 +23,27 @@ true if the user has already changed his username, false otherwise. [input] arra
 The list of users. It is guaranteed that curUsername is present in users. [output] boolean
 
 true if it is possible to change the username, false otherwise.
+
+\#Solutions
+
+## My Solution
+
+```Javascript
+function canUpdate(newUsername, curUsername, isChanged, users) {
+	for (var i = 0; i &lt; newUsername.length; i++) {
+		if (!(/[A-Za-z0-9_]/g).test(newUsername[i])) return false;
+	}
+	if (isChanged) {
+		return newUsername.toLowerCase() == curUsername.toLowerCase();
+	} else {
+		users = users.map(v => v.toLowerCase());
+		return users.indexOf(newUsername.toLowerCase()) == -1;
+	}
+}
+```
+
+## Shortest Solution
+
+```Javascript
+canUpdate = (n, o, c, a)=> !a.find(t=>RegExp(t,'i').test(n))!=c & !/\\W/.test(n)
+```
