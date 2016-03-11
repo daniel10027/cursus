@@ -4,7 +4,7 @@ Write an algorithm that takes two 3 × 3 matrices and calculates their product.
 ## Example:
 For
 
-```
+```Javascript
 matrixA = [[1,2,3],
            [4,5,6],
            [7,8,1]],
@@ -15,7 +15,7 @@ matrixB = [[1,2,3],
 
 the output should be
 
-```
+```Javascript
 MatrixMultiplication(matrixA, matrixB) = [[19,21,11],
                                           [43,48,29],
                                           [35,35,31]]
