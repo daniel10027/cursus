@@ -18,6 +18,7 @@ for `parent = [0,0,0,1]` and `newRoot = 1`, the output should be `[1,1,0,1]`
 
 -   [output] array.integer
 
+<<<<<<< HEAD
         array of parents after changing the root
 
     ## Solutions
@@ -57,3 +58,40 @@ for `parent = [0,0,0,1]` and `newRoot = 1`, the output should be `[1,1,0,1]`
         return ans;
     }
     ```
+=======
+    array of parents after changing the root
+
+```C++
+std::vector<int> changeRoot(std::vector<int> parent, int newRoot) {
+    int root;
+    std::vector<int> graph[parent.size()];
+    for(int i=0; i<parent.size(); ++i){
+        if(parent[i] == i){
+            root= i;
+            continue;
+        }
+        graph[i].push_back(parent[i]);
+        graph[parent[i]].push_back(i);
+    }
+    bool vis[parent.size()];
+    for(int i=0; i<parent.size(); ++i) vis[i] = false;
+    std::queue<int>Q;
+    std::vector<int>ans(parent.size(), -1);
+    Q.push(newRoot);
+    while(Q.size()){
+        int cur = Q.front(); Q.pop();
+        if(vis[cur]) continue;
+        vis[cur] =true;
+        for(int i=0; i<graph[cur].size(); ++i){
+            if(parent[graph[cur][i]] == -1 || !vis[graph[cur][i]]){
+                //vis[graph[cur][i]] = true;
+                ans[graph[cur][i]] = cur;
+                Q.push(graph[cur][i]);
+            }
+        }
+    }
+    ans[newRoot] = newRoot;
+    return ans;
+}
+```
+>>>>>>> 6d9ac756255de3afe904321bd44fb793b02139ba
