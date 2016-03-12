@@ -15,7 +15,7 @@ Zeros(4) = 0
 
 ```Javascript
 Zeros(7) = 1
-7! = 1 _ 2 _ 3 _ 4 _ 5 _ 6 _ 7 = 5040
+7! = 1 * 2 * 3 * 4 * 5 * 6 * 7 = 5040
 ```
 
 which has 1 trailing zero.
