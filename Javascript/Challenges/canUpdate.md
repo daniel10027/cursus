@@ -24,7 +24,7 @@ The list of users. It is guaranteed that curUsername is present in users. [outpu
 
 true if it is possible to change the username, false otherwise.
 
-\#Solutions
+# Solutions
 
 ## My Solution
 
