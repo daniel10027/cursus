@@ -22,7 +22,7 @@ Also feel free to fork and create your own repo, star this project for more upda
 
 **Cheers**
 
-[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://kafil.github.io)
-[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://kafil.github.io)
+[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://kafiil.github.io)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://kafiil.github.io)
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://kafil.github.io)
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://kafiil.github.io)
