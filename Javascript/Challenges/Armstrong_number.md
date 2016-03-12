@@ -21,7 +21,7 @@ An Armstrong number is a number that is the sum of its own digits each raised to
 
 ## Solutions
 
-### My Solutions
+### My Solution
 
 ```Javascript
 Armstrong_number = n => {
