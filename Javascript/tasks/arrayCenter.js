@@ -12,5 +12,5 @@ function arrayCenter(A) {
       B.push(A[i]);
     }
   }
-  return B
+  return B;
 }
