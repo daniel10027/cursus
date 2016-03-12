@@ -21,4 +21,8 @@ I'm currently only working on the `Javascript` version of the solutions as I'm l
 Also feel free to fork and create your own repo, star this project for more updates as I push new solutions every now and then.
 
 **Cheers**
-![store](https://raw.githubusercontent.com/larsenwork/web.svg.min/master/svg/app%20store%20badges/googleplay_alt.svg)
+
+[![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://forthebadge.com)
+[![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com)
+
+[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
