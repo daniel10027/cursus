@@ -33,10 +33,10 @@ which has 1 trailing zero.
 #### My Solutions
 
 ```Javascript
-Zeros = N=>{
-     c=0
-    for (  i=5; N/i>=1; i *= 5)
-          c += Math.floor(N/i)
-    return c
+Zeros = N => {
+  c = 0
+  for (i = 5; N / i >= 1; i *= 5)
+    c += Math.floor(N / i)
+  return c
 }
 ```
