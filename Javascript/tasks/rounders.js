@@ -10,3 +10,14 @@ function rounders(n) {
   }
   return (parseInt(arr.reverse().join('')));
 }
+function rounders(n) {
+  var p = 10;
+  while (n > p) {
+    if (Math.floor((n % p) / Math.floor(p / 10)) < 5) 
+      n = Math.floor(n / p) * p;
+    else 
+      n = (Math.floor(n / p) + 1) * p;
+    p *= 10;
+  }
+  return n;
+}
