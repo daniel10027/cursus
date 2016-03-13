@@ -1,4 +1,4 @@
-## Description
+# Description
 
 N! is the notation of a factorial, which can be described as the product of all positive numbers less than or equal to N. We also define 0! to be equal to 1.
 
