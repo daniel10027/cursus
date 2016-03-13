@@ -1,3 +1,4 @@
+# Description
 On one website, each user has a username. There're some rules concerning the usernames:
 
 the username can contain only lowercase and uppercase English letters, digits and the `'_'` (underscore) symbols; each username is unique; it is possible to change the username only once; the username are not case sensitive, so "Bob" is the same name as "bob". Unfortunately, there's a bug on the website: it's impossible to change the way the username is shown on the profile page, i.e. change its case. For example, the user with 'johndoe' username can't change it to 'JohnDoe', because the system considers those usernames to be the same, and changing the name twice (for example from 'johndoe' to 'JohnDoeTmp' and to 'JohnDoe') is impossible.
