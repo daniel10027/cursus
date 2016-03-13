@@ -2,13 +2,14 @@ Find out if the given string is a palindrome or not. If s is a palindrome return
 
 Example:
 
-```
+```javascript
 PalindromeOrNot("aba") = "Yes"
 PalindromeOrNot("abb") = "No"
+```
+- [input] string s
 
-[input] string s
     A string of lowercase English letters, 0 ≤ s.length ≤ 300.
 
-[output] string
+- [output] string
+
     Either "Yes" or "No".
-```

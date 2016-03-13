@@ -27,7 +27,7 @@ There're four 'o' symbols and only three 'x's, which is impossible since 'x' sta
 
 #### My Solution
 
-Here's an abvious solution not yet optimzed to be the shortest
+Here's an obvious solution not yet optimized to be the shortest
 
 ```javascript
 function TicTacToe(board) {
