@@ -47,3 +47,19 @@ function TicTacToe(board) {
   return (x === o || x === o + 1) && x + o + empty === 9;
 }
 ```
+
+The solution above can be further more  shortened and become the code below
+
+```javascript
+TicTacToe = b => {
+  x = o = e = 0
+  for (i = 0; i < 3; i++)
+    for (j = 0; j < 3; j++) {
+      if (b[i][j] == "o")
+        o++ else if (b[i][j] == "x")
+          x++ else
+            e++
+          }
+        return (x == o | x == o + 1) & x + o + e == 9
+    }
+```
