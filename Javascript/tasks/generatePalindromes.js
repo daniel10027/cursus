@@ -1,13 +1,12 @@
 function generatePalindromes(charactersSet) {
-
   var result = [];
-
   var N = charactersSet.length;
   var palindrome = [];
   var letterCnt = [];
-  for (var i = 0; i < N; i++) palindrome.push(0);
-  for (var i = 0; i < 26; i++) letterCnt.push(0);
-
+  for (var i = 0; i < N; i++) 
+    palindrome.push(0);
+  for (var i = 0; i < 26; i++) 
+    letterCnt.push(0);
   for (var i = 0; i < N; i++) {
     letterCnt[charactersSet.charCodeAt(i) - 'a'.charCodeAt(0)]++;
   }
@@ -20,8 +19,7 @@ function generatePalindromes(charactersSet) {
       }
     }
   }
-
-  var generate = function(idx) {
+  var generate = function (idx) {
     if (idx >= Math.floor(N / 2)) {
       result.push(palindrome.join(""));
       return;
@@ -36,7 +34,6 @@ function generatePalindromes(charactersSet) {
       }
     }
   }
-
   generate(1);
   return result;
 }
