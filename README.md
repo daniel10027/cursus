@@ -4,6 +4,10 @@ My solutions to some of the tasks and challenges faced on [CodeFights](https://w
 
 ![codefights](img/codefights.PNG)
 
+*This a cool repo :)*
+
+![cool](img/cool.png)
+
 ## Codefriend
 
 Here is my [profile](https://codefights.com/profile/kafil), feel free to codefriend me and challenge me for a fight.
@@ -21,6 +25,7 @@ I'm currently only working on the `Javascript` version of the solutions as I'm l
 Also feel free to fork and create your own repo, star this project for more updates as I push new solutions every now and then.
 
 **Cheers**
+
 
 [![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)](http://kafiil.github.io)
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://kafiil.github.io)
