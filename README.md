@@ -4,7 +4,7 @@ My solutions to some of the tasks and challenges faced on [CodeFights](https://w
 
 ![codefights](img/codefights.PNG)
 
-*This a cool repo :)*
+**This a cool repo :)**
 
 ![cool](img/cool.png)
 
