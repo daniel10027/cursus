@@ -1,4 +1,4 @@
-REM this batch help me creat files for a new task or challenge
+REM this batch help me create files for a new task or challenge
 @echo off
 REM echo Script started
 touch %1.js %1.md
