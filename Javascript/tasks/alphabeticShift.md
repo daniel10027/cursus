@@ -1,11 +1,15 @@
+# Description
+
 Given a string, replace each its character by the next one in the English alphabet (z would be replaced by a).
 
-Example
+## Example
 
-given the string 'crazy', the output will be 'dsbaz'
+given the string `'crazy'`, the output will be `'dsbaz'`
 
-[input] string inputString
+-   [input] string inputString
 
-non-empty string consisting of lowercase English characters [output] string
+    non-empty string consisting of lowercase English characters
 
-the result string after replacing all of its characters
+-   [output] string
+
+    the result string after replacing all of its characters

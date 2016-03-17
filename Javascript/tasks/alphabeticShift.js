@@ -9,6 +9,7 @@ function alphabeticShift(inputString) {
 	}
 	return r.join("");
 }
+
 //BugFix
 function alphabeticShift(inputString) {
 	var chars = inputString.split("");

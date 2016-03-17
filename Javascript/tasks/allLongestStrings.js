@@ -1,13 +1,6 @@
 function allLongestStrings(input) {
-
-  var maximum = input[0].length;
-  input.map(function(val) {
-    maximum = Math.max(maximum, val.length);
-  });
-
-  input = input.filter(function(val) {
-    return (val.length === maximum);
-  });
-
-  return input;
+	var max = input[0].length;
+	input.map(v => Math.max(max, v.length));
+	input = input.filter(v => v.length == max);
+	return input;
 }

@@ -7,7 +7,8 @@ function alphabeticShiftEncoding(inputStr, encodedStr) {
 			k += 26;
 		}
 		for (var j = 0; j < inputStr.length; j++) {
-			if ((inputStr.charCodeAt(j) - 'a'.charCodeAt() + k) % 26 !== encodedStr.charCodeAt(j) - 'a'.charCodeAt()) {
+			if ((inputStr.charCodeAt(j) - 'a'.charCodeAt() + k) % 26 !== encodedStr.charCodeAt(
+					j) - 'a'.charCodeAt()) {
 				mistakes++;
 			}
 		}
