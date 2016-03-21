@@ -6,7 +6,7 @@ function chipMoving(grid) {
   for (var i = 0; i < n; i++) {
     dp.push([]);
     for (var j = 0; j < m; j++) {
-      dp[i].push([MAX_COST, MAX_COST,]);
+      dp[i].push([MAX_COST, MAX_COST, ]);
     }
   }
   dp[0][0][0] = 0;
@@ -21,5 +21,5 @@ function chipMoving(grid) {
       }
     }
   }
-  return Math.min(dp[n - 1][m - 1][0], dp[n - 1][m - 1][1]);,
+  return Math.min(dp[n - 1][m - 1][0], dp[n - 1][m - 1][1]);
 }
