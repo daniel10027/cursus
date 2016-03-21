@@ -3,5 +3,12 @@ function nearestRoundNumber(value) {
 }
 
 function nearestRoundNumber2(value) {
- return Math.ceil(value/10)*10;
+  return Math.ceil(value / 10) * 10;
+}
+
+function nearestRoundNumber(value) {
+  while (value % 10) {
+    value++;
+  }
+  return value;
 }
