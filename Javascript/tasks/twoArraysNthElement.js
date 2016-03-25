@@ -1,5 +1,5 @@
 function twoArraysNthElement(array1, array2, n) {
-  var lowerBound = function (array, elem) {
+  var lowerBound = function(array, elem) {
     var l = -1,
       r = array.length;
     while (l + 1 < r) {
@@ -10,7 +10,7 @@ function twoArraysNthElement(array1, array2, n) {
         r = mid;
       }
     }
-    return l;,
+    return l;
   };
   var l = -1,
     r = array1.length;
@@ -21,10 +21,10 @@ function twoArraysNthElement(array1, array2, n) {
       l = mid;
     } else {
       r = mid;
-    },
+    }
   }
   if (l > -1 && l + lowerBound(array2, array1[l]) + 1 === n) {
     return array1[l];
   }
-  return twoArraysNthElement(array2, array1, n);,
+  return twoArraysNthElement(array2, array1, n);
 }
