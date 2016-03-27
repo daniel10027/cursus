@@ -1,6 +1,5 @@
 function fractal(n) {
   var size = (1 << n) - 1;
-
   result = Array(size);
   resultTmp = Array(size);
   for (var i = 0; i < size; i++) {
@@ -11,7 +10,6 @@ function fractal(n) {
       resultTmp[i][j] = 0;
     }
   }
-
   var draw = function(n, row, column, angle) {
     var size = (1 << n) - 1;
     if (angle !== 0) {
@@ -56,7 +54,6 @@ function fractal(n) {
       result[row + add - 1][column + size - 1] |= (1 << 1);
     }
   }
-
   draw(n, 0, 0, 0);
   var answer = Array(size + 1);
   for (var i = 0; i < answer.length; i++) {
@@ -82,18 +79,15 @@ function fractal(n) {
       }
     }
   }
-
   for (var i = 0; i < size + 1; i++) {
     for (var j = 0; j < (size + 1) * 2 - 1; j++) {
       if (answer[i][j] === 0) {
         answer[i][j] = ' ';
       }
-      if (answer[i][j] === ' ' && j > 0 &&
-          answer[i][j - 1] === '_' && j + 1 < answer[i].length &&
-          answer[i][j + 1] === '_') {
+      if (answer[i][j] === ' ' && j > 0 && answer[i][j - 1] === '_' && j + 1 < answer[i].length && answer[i][j + 1] === '_') {
         answer[i][j] = '_';
       }
     }
   }
-  return answer ;
+  return answer;
 }
