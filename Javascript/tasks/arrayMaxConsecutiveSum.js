@@ -5,7 +5,7 @@ function arrayMaxConsecutiveSum(inputArray, k) {
     for (var j = 0; j < k; j++) {
       sum += inputArray[i + j];
     }
-    max = Math.max(max, sum)
+    max = Math.max(max, sum);
   }
   return max;
 }

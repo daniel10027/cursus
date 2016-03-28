@@ -1,5 +1,3 @@
-//INCORRECT
-//BUGFIX
 function textJustification(words, L) {
   var text = [],
     currentWord = 0;
@@ -8,7 +6,7 @@ function textJustification(words, L) {
       right = left,
       currentSum = words[left].length;
     while (right + 1 < words.length && currentSum + words[right + 1].length + 1 <= L) {
-      currentSum += words[right + 1].length;
+      currentSum += words[right + 1].length + 1;
       right++;
     }
     if (left === right) {
