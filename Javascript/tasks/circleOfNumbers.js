@@ -1,3 +1,7 @@
-int circleOfNumbers(int n, int f) {
-	return f < n / 2 ? f + n / 2 : f - n / 2;
+function circleOfNumbers(n, firstNumber) {
+  return firstNumber < n / 2 ? firstNumber + n / 2 : firstNumber - n / 2;
+}
+
+function circleOfNumbers(n, firstNumber) {
+  return (firstNumber + n / 2) % n;
 }
