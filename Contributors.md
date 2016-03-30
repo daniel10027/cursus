@@ -1,5 +1,3 @@
-#Active Codefighters
-
-This a list of codefighters that collaborate in this repo
-
-- [Kafiil](https://www.codefights.com/profile/kafil) *Creator*
+# Active Codefighters
+This a list of Codefighters that collaborate in this repository
+- [Kafiil](https://www.codefights.com/profile/kafil) _Creator_
