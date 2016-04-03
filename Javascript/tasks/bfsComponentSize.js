@@ -1,13 +1,10 @@
 function bfsComponentSize(matrix) {
-
   var visited = [],
-      queue = [],
-      componentSize = 0;
-
+    queue = [],
+    componentSize = 0;
   for (var i = 0; i < matrix.length; i++) {
     visited.push(false);
   }
-
   visited[1] = true;
   queue.push(1);
   while (queue.length) {
@@ -21,6 +18,5 @@ function bfsComponentSize(matrix) {
       }
     }
   }
-
   return componentSize;
 }
