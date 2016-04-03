@@ -1,9 +1,9 @@
 function encloseInBrackets(inputString) {
-	return "(" + inputString + ")"
+    return "(" + inputString + ")"
 }
 //BugFix
 function encloseInBrackets(inputString) {
-	inputString = '(' + inputString;
-	inputString += '('; //')' instead of '('
-	return inputString;
+    inputString = '(' + inputString;
+    inputString += '('; //')' instead of '('
+    return inputString;
 }

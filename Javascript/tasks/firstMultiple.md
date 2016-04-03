@@ -1,13 +1,20 @@
+# Description
 Find the smallest integer not less than the given limit which is divisible by all integers from the given array.
 
-Example
+## Example
 
+```javascript
 firstMultiple([2, 3, 4], 13) = 24
+```
 
-[input] array.integer divisors
+- [input] array.integer divisors
 
-Array of positive integers. [input] integer start
+  Array of positive integers.
 
-Positive integer. [output] integer
+- [input] integer start
 
-The smallest integer not less than start which is divisible by all integers from divisors.
+  Positive integer.
+
+- [output] integer
+
+  The smallest integer not less than start which is divisible by all integers from divisors.
