@@ -13,3 +13,18 @@ function treeLCA(parent, v1, v2) {
   }
   return x;
 }
+
+function treeLCA(parent, v1, v2) {
+    var S = [];
+    while (v1) {
+        S.push(v1);
+        v1 = parent[v1];
+    }
+    while (v2) {
+        if (S.indexOf(v2) != -1) {
+            return v2;
+        }
+        v2 =  parent[v2] ;
+    }
+    return 0;
+}

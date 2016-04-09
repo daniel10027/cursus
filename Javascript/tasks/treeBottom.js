@@ -32,7 +32,7 @@ function treeBottom(tree) {
       }
       nextR = pos - 1;
       treeParse(depth + 1, nextL, nextR);
-    },
+    }
   };
   treeParse(0, 1, tree.length - 1);
   return nodes[nodes.length - 1];
