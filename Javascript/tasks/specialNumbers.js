@@ -1,8 +1,7 @@
 function specialNumbers(l, r) {
-
   var ans = 0;
   for (var i = l; i <= r; i++) {
-    var digits = i.toString();
+    var digits = ("" + i).split("");
     var ok = true;
     for (var j = 0; j < Math.floor((digits.length + 1) / 2); j++) {
       if (digits[j] === '6' || digits[j] === '9') {
@@ -17,6 +16,5 @@ function specialNumbers(l, r) {
       ans++;
     }
   }
-
   return ans;
 }
