@@ -4,7 +4,7 @@ Initially they have some positive integer N. They make moves in turn. The first 
 
 Which player wins the game with a given N?
 
-Example
+## Example
 
 ```
 subtractionGame(1) = false
