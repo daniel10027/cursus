@@ -18,12 +18,12 @@ The following picture illustrates the example, and the 23 points are marked gree
 
 - [input] integer a
 
-A positive even integer.
+  A positive even integer.
 
 - [input] integer b
 
-A positive even integer.
+  A positive even integer.
 
 - [output] integer
 
-The number of inner points with integer coordinates.
+  The number of inner points with integer coordinates.
