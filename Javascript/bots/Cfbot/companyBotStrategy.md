@@ -3,9 +3,19 @@ Each CodeFights Company Bot is trained by engineers from that specific company. 
 
 For each trainer we collect two pieces of information per task [answerTime, correctness]. In this case, the bot's correct answer time for a given task would be the average of the correct answer times from the trainers. Given all of the training information for a specific task, calculate the bot's answer time.
 
-Example
+## Example
+For
 
-For trainingData = [[3, 1],                 [6, 1]] the output should be companyBotStrategy(trainingData) = 4.5.
+```javascript
+trainingData = [[3, 1],
+                [6, 1]]
+```
+
+ the output should be
+
+```javascript
+companyBotStrategy(trainingData) = 4.5
+```
 
 Both trainers have solved the task correctly, so the answer is (3 + 6) / 2 = 4.5.
 
