@@ -1,23 +1,22 @@
 # Description
-For given integers a and b, find the last digit of ab.
+For given integers a and b, find the last digit of a<sup>b</sup>.
 
 ## Example
 For `a = 2` and `b = 5`, the output should be
 
 ```javascript
-lastDigit(a, b) = 2.
+lastDigit(a, b) = 2
 ```
 
-### Explanation:
- **2<sup>5</sup> = 32.**
-- [input] integer a
+### Explanation: **2<sup>5</sup> = 32**
+- **[input]** integer a
 
   A positive integer.
 
-- [input] integer b
+- **[input]** integer b
 
   A non-negative integer.
 
-- [output] integer
+- **[output]** integer
 
   The last digit of ab.
