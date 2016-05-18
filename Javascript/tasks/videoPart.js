@@ -7,8 +7,17 @@ function videoPart(part, total) {
     return h * 60 * 60 + m * 60 + s;
   }
 
+  // var gcd = function(a, b) {
+  //     return !b ? a : gcd(b, a % b);
+  // }
+
   var gcd = function(a, b) {
-      return !b?a:gcd(b,a%b);
+    while (a > 0) {
+      var tmp = a;
+      a = b % a;
+      b = tmp;
+    }
+    return b;
   }
 
   var partTime = getSeconds(part);
