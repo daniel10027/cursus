@@ -26,8 +26,8 @@ For the grid:
 
 the answer is 40 since you could avoid all the 99 spots but you would need to change direction 4 times.
 
--   [input] array.array.integer grid
+- [input] array.array.integer grid
 
   A matrix of non-negative integers.
 
--   [output] integer
+- [output] integer
