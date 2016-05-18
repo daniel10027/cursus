@@ -1,31 +1,27 @@
 # Description
 
-Given a  rectangular matrix of characters, add a border of asterisks(`*`) to it.
+Given a rectangular matrix of characters, add a border of asterisks(`*`) to it.
 
 ## Example
 
-```Javascript
+```javascript
     addBorder(["abc""ded"]) = ["*****",
                                "*abc*",
                                "*ded*",
                                "*****"]
 ```
 
-#### input
+- **[input]** array.string picture
 
- array.string picture
+  A non-empty array of non-empty equal-length strings.
 
-    A non-empty array of non-empty equal-length strings.
+- **[output]** array.string
 
-#### output
+  The same matrix of characters, framed with a border of asterisks of width 1.
 
- array.string
+## Solution
 
-    The same matrix of characters, framed with a border of asterisks of width 1.
-
-## My solution
-
-```Javascript
+```javascript
     function addBorder(picture) {
       var answer = [""];
       for (var i = 0; i < picture[0].length + 2; i++) {
