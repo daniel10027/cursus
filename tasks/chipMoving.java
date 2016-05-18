@@ -22,12 +22,12 @@ int chipMoving(int[][] grid) {
     for (int j = 0; j < m; j++) {
       if (i < n - 1) {
         dp[i + 1][j][0] = Math.min(Math.min(dp[i + 1][j][0],
-                                   dp[i][j][0] + grid[i + 1][j]),
+                                            dp[i][j][0] + grid[i + 1][j]),
                                    dp[i][j][1] + grid[i + 1][j] + 10);
       }
       if (j < m - 1) {
         dp[i][j + 1][1] = Math.min(Math.min(dp[i][j + 1][1],
-                                   dp[i][j][1] + grid[i][j + 1]),
+                                            dp[i][j][1] + grid[i][j + 1]),
                                    dp[i][j][0] + grid[i][j + 1] + 10);
       }
     }
