@@ -25,5 +25,5 @@ function perfectTeamOfMinimalSize(n, candidates) {
         }
     }
 
-    return 1 + teamSize[MAX_MASK - 1] - 1;
+    return teamSize[MAX_MASK - 1];
 }

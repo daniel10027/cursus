@@ -5,8 +5,21 @@ function isSum(value) {
 
 function isSum(n) {
     var i = 1;
-    while (n) {
+    while (n>0) {
         n -= i++;
     }
     return n === 0;
+}
+
+function isSum(value) {
+
+  var i = 1;
+  while (value>0) {
+    value -= i;
+    i++;
+  }
+  if (!value) {
+    return true;
+  }
+  return false;
 }
