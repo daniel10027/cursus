@@ -1,27 +1,27 @@
 function almostIncreasingSequence(sequence) {
 
-  for (var erasedIndex = 0; erasedIndex < sequence.length; erasedIndex++) {
+  for(var erasedIndex = 0; erasedIndex < sequence.length; erasedIndex++) {
     var increasing = true,
       last = 0,
       start = 1;
 
-    if (!erasedIndex) {
+    if(!erasedIndex) {
       last = 1;
       start = 2;
     }
 
-    for (var j = start; j < sequence.length; j++) {
-      if (j === erasedIndex) {
+    for(var j = start; j < sequence.length; j++) {
+      if(j === erasedIndex) {
         continue;
       }
-      if (sequence[j] <= sequence[last]) {
+      if(sequence[j] <= sequence[last]) {
         increasing = false;
         break;
       }
       last = j;
     }
 
-    if (increasing) {
+    if(increasing) {
       return true;
     }
   }
