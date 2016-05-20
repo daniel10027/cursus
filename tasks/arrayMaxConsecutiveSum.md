@@ -1,15 +1,19 @@
+# Description
+
 Given array of integers, find the maximal possible sum of some of its k consecutive elements.
 
-### Example
+## Example
 
-for array = [2, 3, 5, 1, 6], k = 2 output should be 8
+for `array = [2, 3, 5, 1, 6]`, `k = 2` output should be `8`
 
-[input] array.integer inputArray
+- **[input]** array.integer inputArray
 
-array of positive integers
-[input] integer k
+  array of positive integers
 
-an integer (not greater than the length of inputArray)
-[output] integer
+- **[input]** integer k
 
-the maximal possible sum
+  an integer (not greater than the length of inputArray)
+
+- **[output]** integer
+
+  the maximal possible sum
