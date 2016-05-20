@@ -4,11 +4,10 @@ Find the number of even digits in a given integer.
 
 ## Example
 
-`numberOfEvenDigits(1010) = 2`
-`numberOfEvenDigits(123) = 1`
+`numberOfEvenDigits(1010) = 2` `numberOfEvenDigits(123) = 1`
 
--   [input] integer n
+- [input] integer n
 
-    positive integer
+  positive integer
 
--   [output] integer
+- [output] integer
