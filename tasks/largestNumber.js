@@ -5,3 +5,12 @@ function largestNumber(n) {
     }
     return parseInt(s);
 }
+
+function largestNumber(n) {
+    return Math.pow(10, n) - 1;
+}
+
+
+function largestNumber(n) {
+    return parseInt('9'.repeat(n));
+}
