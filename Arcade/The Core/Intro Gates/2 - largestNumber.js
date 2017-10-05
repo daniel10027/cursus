@@ -8,12 +8,15 @@ function largestNumber(n) {
 
 
 function largestNumber(n) {
-  var s=0;
+    var s = 0;
 
-  for (var i = 0; i < n; i++) {
-s*=10;
-    s+=9;
+    for (var i = 0; i < n; i++) {
+        s *= 10;
+        s += 9;
 
-  }
-  return n;
+    }
+    return n;
 }
+
+
+const largestNumber = n => Number("9".repeat(n));
