@@ -10,7 +10,9 @@ For
               [3, 3, 3, 3]]
 ```
 
-`a = 1`, `b = 3` the output should be `crossingSum(matrix, a, b) = 12`
+`a = 1`, `b = 3` the output should be 
+
+`crossingSum(matrix, a, b) = 12`
 
 Since (`2 + 2 + 2 + 2) + (1 + 3) = 12`
 - [input] array.array.integer matrix
