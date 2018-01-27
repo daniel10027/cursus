@@ -6,9 +6,9 @@ An Armstrong number is a number that is the sum of its own digits each raised to
 
 ```Javascript
     Armstrong_number(407) = true
-    43 + 03 + 73 = 64 + 343 = 407.
+    4^3 + 0^3 + 7^3 = 64 + 343 = 407.
     Armstrong_number(23) = false
-    22 + 32 = 13 ≠ 23.
+    2^2 + 3^2 = 13 ≠ 23.
 ```
 
 -   [input] integer N
