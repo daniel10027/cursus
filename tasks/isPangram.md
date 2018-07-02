@@ -1,4 +1,3 @@
-# Description 
 # Description
 Given a sentence, check whether it is a pangram or not.
 
@@ -11,11 +10,11 @@ Given a sentence, check whether it is a pangram or not.
 "abcdefghijklmnopqrstuvwxya" -> false.
 ```
 
-- [input] string sentence
+- **[input]** string sentence
 
-  A string containing characters with their ASCII-codes in the range [32, 127].
+  A string containing characters with their ASCII-codes in the range `[32, 127]`.
 
-- [output] boolean
+- **[output]** boolean
 
-    true if sentence is a pangram, false otherwise.
+    `true` if sentence is a pangram, `false` otherwise.
  
